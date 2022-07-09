@@ -1,8 +1,8 @@
 import re, datetime
 
-blog_title = "goofpunk blog"
-blog_link = "https://goofpunk.com/blog/"
-blog_description = "The blog for goofpunk.com"
+blog_title = "YOUR BLOG'S NAME HERE"
+blog_link = "YOUR BLOG'S URL HERE"
+blog_description = "YOUR BLOG'S DESCRIPTION HERE"
 
 filenames = []
 dates = []
