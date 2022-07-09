@@ -11,9 +11,10 @@ posts_dict = {}
 xml_items = []
 
 xml_format = """<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
 <channel>
+  <atom:link href=\"""" + blog_link + "rss.xml" + """\" rel="self" type="application/rss+xml" />
   <title>""" + blog_title + """</title>
   <link>""" + blog_link +  """</link>
   <description>""" + blog_description + """</description>
@@ -36,6 +37,7 @@ def createItemXLML(fName, aName, fDate):
     <title>""" + aName + """</title>
     <link>""" + blog_link + fName + """</link>
     <pubDate>""" + fDate + """</pubDate>
+    <guid>""" + blog_link + fName + """</guid>
   </item>"""
 
 # get raw text out of the JS file
