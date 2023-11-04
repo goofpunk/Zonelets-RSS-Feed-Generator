@@ -1,6 +1,7 @@
 # Zonelets-RSS-Feed-Generator
+**UPDATE:** This project is no longer actively being maintained, since I'm no longer using Zonelets. It *should* still work, but I can't guarantee it. If you're using it and you run into a problem, submit an issue and I'll see what I can do.
 
-[My blog](https://goofpunk.com/blog/) is powered by an awesome little project called [Zonelets](https://zonelets.net/index.html), a simple, easy way to generate a blog on a simple hosting platform like Neocities. I highly recommend it for anyone looking for a simple blogging tool.
+[Zonelets](https://zonelets.net/index.html) is an awesome, easy way to generate a blog on a simple hosting platform like Neocities. I highly recommend it for anyone looking for a simple blogging tool.
 
 One feature it’s missing, though, is the ability to generate an [RSS feed](https://en.wikipedia.org/wiki/RSS) for your blog. I’m a big user of RSS, and I want to have one for my blog too. And since RSS is just based on a hosted XML file, and there’s a standard format for file names in Zonelets, I figured there’s no reason you couldn’t write a script that would generate that XML file based on your list of posts in Zonelets’s `script.js` file. So I made one! 
 
