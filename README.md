@@ -1,5 +1,5 @@
 # Zonelets-RSS-Feed-Generator
-**UPDATE:** This project is no longer actively being maintained, since I'm no longer using Zonelets. It *should* still work, but I can't guarantee it. If you're using it and you run into a problem, submit an issue and I'll see what I can do.
+**UPDATE: This project is no longer actively being maintained, since I'm no longer using Zonelets. It *should* still work, but I can't guarantee it. If you're using it and you run into a problem, submit an issue and I'll see what I can do.** 
 
 [Zonelets](https://zonelets.net/index.html) is an awesome, easy way to generate a blog on a simple hosting platform like Neocities. I highly recommend it for anyone looking for a simple blogging tool.
 
